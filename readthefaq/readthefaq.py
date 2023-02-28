@@ -21,6 +21,6 @@ class ReadTheFAQ:
 
 if __name__ == '__main__':
 	baxtableep = ReadTheFAQ()
-	texts = ['Offensive Text', 'where can I get the beta in #upadtes']
+	texts = ['Offensive Text', 'where is extended bogeys download']
 	print(baxtableep.predict_probs(texts))
 	print(baxtableep.predict(texts))
